@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#1CBF9A"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+
+    <EditText
+        android:id="@+id/emaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_outline_rectangle"
+        android:drawableLeft="@drawable/ic_person"
+        android:padding="12dp"
+        android:layout_marginTop="48dp"
+        android:drawablePadding="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_outline_rectangle"
+        android:drawableLeft="@drawable/ic_lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:drawablePadding="16dp"/>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:background="#1CBF9A"/>
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="16dp"
+        android:layout_marginTop="16dp"/>
+
+
+
+</LinearLayout>
